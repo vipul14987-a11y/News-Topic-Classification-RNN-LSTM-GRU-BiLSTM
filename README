@@ -1,0 +1,65 @@
+# News Topic Classification using RNN, LSTM, GRU and Bi-LSTM
+
+## Project Overview
+
+This project compares four recurrent neural network architectures for multi-class news topic classification using the AG News dataset.
+
+Models Evaluated:
+
+- Simple RNN
+- LSTM
+- GRU
+- Bi-LSTM
+
+## Dataset
+
+AG News Dataset
+
+Classes:
+- World
+- Sports
+- Business
+- Science/Technology
+
+Training Samples: 120,000
+
+Testing Samples: 7,600
+
+## Data Preprocessing
+
+- Lowercase conversion
+- Punctuation removal
+- Stopword removal
+- Tokenization
+- Sequence padding
+
+## Model Results
+
+| Model | Accuracy |
+|---------|---------|
+| RNN | 81.22% |
+| LSTM | 25.00% |
+| GRU | 25.26% |
+| Bi-LSTM | 90.54% |
+
+## Key Findings
+
+- Bi-LSTM achieved the highest classification accuracy.
+- RNN provided strong baseline performance.
+- LSTM and GRU failed to converge effectively under the current experimental setup.
+- Bi-LSTM demonstrated superior contextual understanding of news articles.
+
+## Technologies Used
+
+- Python
+- TensorFlow
+- Keras
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- NLTK
+
+## Author
+
+Vipul Sharma
